@@ -1,0 +1,21 @@
+.ui.button.todo-button {
+  font-size: 1rem;
+  width: 4rem;
+  border: none;
+  font-weight: bold;
+  color: var(--color-main-grey);
+  &--add {
+    margin: 0;
+  }
+  &--check {
+    margin: 0 0.5rem 0 0;
+    &:hover {
+      background-color: var(--color-main-grey);
+      color: var(--color-main-beige);
+    }
+  }
+  &--delete:hover {
+    background-color: rgb(100, 28, 28);
+    color: var(--color-main-beige);
+  }
+}

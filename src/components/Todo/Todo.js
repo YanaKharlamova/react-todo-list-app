@@ -1,5 +1,7 @@
 import React from "react";
 import cn from "classnames";
+import "./Todo.scss";
+import ProjectButton from "../Button/ProjectButton";
 
 const Todo = ({ todos, setTodos, filteredTodo }) => {
   const handleDeleteTodo = () => {
@@ -20,16 +22,26 @@ const Todo = ({ todos, setTodos, filteredTodo }) => {
     );
   };
   //   styles:
-  const classNames = cn([
-    "task",
-    { "task--completed": filteredTodo.completed },
+  const todoStylesClasses = cn([
+    "todo",
+    { "todo--completed": filteredTodo.completed },
   ]);
   return (
     <>
-      <div className={classNames} key={filteredTodo.id}>
+      <div className={todoStylesClasses} key={filteredTodo.id}>
         <span>{filteredTodo.value}</span>
-        <button onClick={handleDeleteTodo}>Delete todo</button>
-        <button onClick={handleCompleteTodo}>Complete todo</button>
+        <div>
+          <ProjectButton
+            onClick={handleCompleteTodo}
+            icon={"check"}
+            handleActionOnClick={handleCompleteTodo}
+          >
+            Complete todo
+          </ProjectButton>
+          <ProjectButton handleActionOnClick={handleDeleteTodo} icon={"delete"}>
+            Delete todo
+          </ProjectButton>
+        </div>
       </div>
     </>
   );

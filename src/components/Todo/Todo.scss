@@ -1,0 +1,22 @@
+.todo {
+  background-color: rgba(245, 232, 244, 0.541);
+  border: 2px rgba(0, 0, 0, 0.493) solid;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: rgb(0, 0, 0);
+  span {
+    margin-right: 0.5rem;
+  }
+  &--completed {
+    text-decoration: line-through;
+    color: rgb(90, 90, 90);
+  }
+}

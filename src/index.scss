@@ -1,10 +1,53 @@
-.todo {
-  background-color: orchid;
-  margin-bottom: 1rem;
+:root {
+  --color-main-grey: rgb(39, 39, 39);
+  --color-main-beige: rgb(245, 245, 220);
 }
-.task {
-  background-color: purple;
-  &--completed {
-    background-color: green;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(255, 192, 203));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  header {
+    min-height: 5rem;
+    padding: 4rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--color-main-beige);
+  }
+  &-navigation {
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    &-input {
+      margin-right: 0.5rem;
+      background: #e0e1e2;
+      border-radius: 0.1rem;
+    }
   }
 }

@@ -1,0 +1,17 @@
+// .todo {
+//   background-color: orchid;
+//   margin-bottom: 1rem;
+// }
+// .task {
+//   background-color: purple;
+//   &--completed {
+//     background-color: green;
+//   }
+// }
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 30%;
+  margin: 0 auto;
+}
