@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
+// import "./index.scss";
+import "react-todo-list-app/blob/master/src/index.scss";
 
 import App from "./App";
 
