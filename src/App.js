@@ -10,6 +10,10 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [filteredTodos, setFilteredTodos] = useState([]);
   const [filterType, setFilterType] = useState("All");
+  // get todos that already are in local storage, when you load the page:
+  useEffect(() => {
+    getTodosFromLocalStorage();
+  }, []);
   useEffect(() => {
     const filterTodosHandler = () => {
       switch (filterType) {
@@ -25,6 +29,8 @@ function App() {
       }
     };
     filterTodosHandler();
+    //set (new) todos to localStorage:
+    saveTodosToLocalStorage();
   }, [todos, filterType]);
 
   const handleInput = (e) => {
@@ -42,7 +48,17 @@ function App() {
     ]);
     setTodo("");
   };
-
+  const getTodosFromLocalStorage = () => {
+    if (localStorage.getItem("todos") === null) {
+      localStorage.setItem("todos", JSON.stringify([]));
+    } else {
+      const localStorageTodos = JSON.parse(localStorage.getItem("todos"));
+      setTodos(localStorageTodos);
+    }
+  };
+  const saveTodosToLocalStorage = () => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  };
   return (
     <>
       <div className="container">
