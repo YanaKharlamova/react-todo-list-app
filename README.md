@@ -17,7 +17,7 @@ In order to run this code, run this commands in your project terminal:
 **2)** `npm start` - to run the project.
 ## Screenshots:
 **1.**
-![todo1](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
+![todo1](https://user-images.githubusercontent.com/58036292/174500626-24227db3-5411-4b88-85fd-640df20def69.png)
 **2.**
 ![todo2](https://user-images.githubusercontent.com/58036292/174500467-58cdda39-dca0-4c16-bb2d-09cf9349938e.png)
 **3.**
