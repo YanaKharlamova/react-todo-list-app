@@ -19,7 +19,7 @@ In order to run this code, run this commands in your project terminal:
 **1.**
 ![todo1](https://user-images.githubusercontent.com/58036292/174500626-24227db3-5411-4b88-85fd-640df20def69.png)
 **2.**
-![todo2](https://user-images.githubusercontent.com/58036292/174500467-58cdda39-dca0-4c16-bb2d-09cf9349938e.png)
+![todo2](https://user-images.githubusercontent.com/58036292/174500705-5acc02b5-2471-4fd3-a71a-55113131f93f.png)
 **3.**
 ![todo3](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
 **4.**
