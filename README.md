@@ -1,4 +1,3 @@
-https://yanakharlamova.github.io/react-todo-list-app/
 
 # Restaurant-website, made with React
 ## About 
