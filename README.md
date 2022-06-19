@@ -3,16 +3,12 @@ https://yanakharlamova.github.io/react-todo-list-app/
 # Restaurant-website, made with React
 ## About 
 
-Live version: [https://yanakharlamova.github.io/Restaurant-website.github.io/](https://yanakharlamova.github.io/CafeApiReactRouterProject/)
-
-https://spoonacular.com/food-api - API i used in this project
+Live version: https://yanakharlamova.github.io/react-todo-list-app/
 
 ## Built with:
 * React
-* React Router
-* Fetch API
-* CSS styled components
-* Framer Motion
+* SCSS
+* Semantic UI React Icons
 
 ## Installing
 In order to run this code, run this commands in your project terminal:
@@ -24,9 +20,9 @@ In order to run this code, run this commands in your project terminal:
 **1.**
 ![todo1](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
 **2.**
-![todo2](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
+![todo2](https://user-images.githubusercontent.com/58036292/174500467-58cdda39-dca0-4c16-bb2d-09cf9349938e.png)
 **3.**
 ![todo3](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
 **4.**
-![todo4](https://user-images.githubusercontent.com/58036292/174500462-6552beb3-8294-46b2-9e4b-b3c45fdda62c.png)
+![todo4](https://user-images.githubusercontent.com/58036292/174500463-2bebed56-d63a-4852-ac2f-2727e03a1dee.png)
 
