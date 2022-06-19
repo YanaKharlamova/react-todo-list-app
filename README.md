@@ -1,5 +1,5 @@
 
-# Restaurant-website, made with React
+# Todo-list App, made with React
 ## About 
 
 Live version: https://yanakharlamova.github.io/react-todo-list-app/
